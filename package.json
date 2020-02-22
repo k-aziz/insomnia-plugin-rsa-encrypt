@@ -1,0 +1,13 @@
+{
+  "name": "insomnia-plugin-rsa-encrypt",
+  "version": "1.0.0",
+  "main": "src/plugin.js",
+  "insomnia": {
+    "name": "rsa-encrypt",
+    "description": "encrypt values with RSA OAEP encryption using an RSA public key"
+  },
+  "dependencies": {
+    "node-forge": "^0.9.1"
+  },
+  "devDependencies": {}
+}
