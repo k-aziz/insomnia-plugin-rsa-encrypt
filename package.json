@@ -1,23 +1,23 @@
 {
-  "name": "insomnia-plugin-rsa-encrypt",
-  "description": "Encrypt values with RSA OAEP",
-  "version": "1.2.0",
-  "main": "src/plugin.js",
-  "author": {
-    "name": "Kashim Aziz",
-    "email": "kashim_aziz@yahoo.co.uk"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/k-aziz/insomnia-plugin-rsa-encrypt"
-  },
-  "license": "LGPL-3.0-or-later",
-  "insomnia": {
-    "name": "rsa-encrypt",
-    "description": "encrypt values with RSA OAEP encryption using an RSA public key"
-  },
-  "dependencies": {
-    "node-forge": "^0.9.1"
-  },
-  "devDependencies": {}
+    "name": "insomnia-plugin-rsa-encrypt",
+    "description": "Encrypt values with RSA OAEP",
+    "version": "1.2.1",
+    "main": "src/plugin.js",
+    "author": {
+        "name": "Kashim Aziz",
+        "email": "kashim_aziz@yahoo.co.uk"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/k-aziz/insomnia-plugin-rsa-encrypt"
+    },
+    "license": "LGPL-3.0-or-later",
+    "insomnia": {
+        "name": "rsa-encrypt",
+        "description": "encrypt values with RSA OAEP encryption using an RSA public key"
+    },
+    "dependencies": {
+        "node-forge": "^0.9.1"
+    },
+    "devDependencies": {}
 }
