@@ -6,16 +6,6 @@ module.exports.templateTags = [{
     description: 'Encrypt value with RSA OAEP',
     args: [
         {
-            displayName: 'Public RSA key',
-            type: 'string',
-            defaultValue: '',
-        },
-        {
-            displayName: 'Value',
-            type: 'string',
-            defaultValue: '',
-        },
-        {
             displayName: 'Function',
             type: 'enum',
             options: [
@@ -29,8 +19,17 @@ module.exports.templateTags = [{
                 }
 
             ]
-        }
-
+        },
+        {
+            displayName: 'Public RSA key',
+            type: 'string',
+            defaultValue: '',
+        },
+        {
+            displayName: 'Value',
+            type: 'string',
+            defaultValue: '',
+        },
     ],
     async run(context, key, value, fn) {
         var val;
