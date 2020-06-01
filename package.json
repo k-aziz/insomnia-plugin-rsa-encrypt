@@ -1,7 +1,7 @@
 {
   "name": "insomnia-plugin-rsa-encrypt",
   "description": "Encrypt values with RSA OAEP",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "src/plugin.js",
   "author": {
     "name": "Kashim Aziz",
