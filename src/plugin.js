@@ -3,7 +3,7 @@ var forge = require('node-forge');
 module.exports.templateTags = [{
     name: 'RsaEncrypt',
     displayName: 'RSA encrypt',
-    description: 'Encrypt value with RSA OAEP',
+    description: 'Encrypt/Decrypt value with RSA OAEP',
     args: [
         {
             displayName: 'Function',
@@ -17,11 +17,10 @@ module.exports.templateTags = [{
                     displayName: 'Decrypt',
                     value: 'DECRYPT'
                 }
-
             ]
         },
         {
-            displayName: 'Public RSA key',
+            displayName: 'RSA key',
             type: 'string',
             defaultValue: '',
         },
@@ -31,7 +30,7 @@ module.exports.templateTags = [{
             defaultValue: '',
         },
     ],
-    async run(context, key, value, fn) {
+    async run(context, fn, key, value) {
         var val;
         if (fn === "ENCRYPT") {
             console.log(`Encrypting value ${value}`);
