@@ -43,7 +43,7 @@ module.exports.templateTags = [{
             var b64 = forge.util.encode64(encrypted);
 
             console.log(`Base64 encrypted value - ${b64}`);
-            val = String(b64);
+            val = b64;
         } else if (fn === "DECRYPT") {
             var raw_val = forge.util.decode64(value);
             var privateKey = forge.pki.privateKeyFromPem(key);
