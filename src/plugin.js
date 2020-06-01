@@ -4,7 +4,8 @@ module.exports.templateTags = [{
     name: 'RsaEncrypt',
     displayName: 'RSA encrypt',
     description: 'Encrypt value with RSA OAEP',
-    args: [{
+    args: [
+        {
             displayName: 'Public RSA key',
             type: 'string',
             defaultValue: '',
@@ -17,7 +18,8 @@ module.exports.templateTags = [{
         {
             displayName: 'Function',
             type: 'enum',
-            options: [{
+            options: [
+                {
                     displayName: 'Encrypt',
                     value: 'ENCRYPT'
                 },
