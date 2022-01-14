@@ -17,7 +17,7 @@
         "description": "encrypt values with RSA OAEP encryption using an RSA public key"
     },
     "dependencies": {
-        "node-forge": "^0.10.0"
+        "node-forge": "^1.0.0"
     },
     "devDependencies": {}
 }
